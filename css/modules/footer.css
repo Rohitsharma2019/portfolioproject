@@ -1,0 +1,115 @@
+body{
+
+}
+.footer{
+  /*background-color: #0f2b48;*/
+  background-image: url("../../images/footer.png");
+
+  border-top: 1px solid grey;
+  height: 30vh;
+  position: relative;
+  width: 80%;
+    left: 20%;
+
+}
+.container{
+  /*margin: 20px auto;
+  width: 90%;*/
+
+}
+.section-1-1{
+  /*margin: 20px auto;
+  width: 100%;*/
+
+}
+.sec-1{
+  float: left;
+
+}
+.sec-2{
+  float: right;
+
+}
+input{
+
+  border-radius: 5px;
+}
+button{
+  background-color: grey;
+  color: white;
+  padding: 5px;
+}
+button:hover{
+  background-color: black;
+}
+
+.section-2-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  clear: both;
+
+}
+.content-1-1{
+  margin: 15px auto;
+  width: 90%;
+}
+.content-1-1 ul{
+  list-style-type: none;
+
+}
+.content-1-1 li a{
+  text-decoration: none;
+    color: #565353;
+    font-size: 14px;
+
+}
+.content-1-1 a:hover{
+  color: green;
+}
+.content-1-1 li{
+  padding-top: 10px;
+}
+.first-headings{
+  color: hotpink;
+  font-size: 19px;
+}
+.copy-right p{
+  font-size: 14px;
+    color: #959090f0;
+}
+.last-icons{
+  text-align: right;
+}
+.last-icons .fa-twitter-square:before{
+  /*content: "\f081";*/
+  color: grey;
+  font-size: 30px;
+}
+.last-icons .fa-twitter-square:hover:before{
+  color: hotpink;
+}
+.last-icons .fa-github-square:before {
+  padding: 10px;
+    /*content: "\f092";*/
+  padding: 10px;
+  color: grey;
+  font-size: 30px;
+}
+.last-icons .fa-github-square:hover:before{
+  color: hotpink;
+}
+.last-icons .fa-facebook-square:before{
+  /*content: "\f082";*/
+  color: grey;
+  font-size: 30px;
+}
+.last-icons .fa-facebook-square:hover:before{
+  color: hotpink;
+}
+.fts{
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
