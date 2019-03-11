@@ -114,3 +114,7 @@ button:hover{
   margin-bottom: 20px;
   margin-top: 40px;
 }
+.copy-right {
+    width: 50%;
+    position: absolute;
+}
