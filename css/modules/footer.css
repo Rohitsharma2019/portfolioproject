@@ -2,47 +2,53 @@ body{
 
 }
 .footer{
-  /*background-color: #0f2b48;*/
-  background-image: url("../../images/footer.png");
-
+  background-color: #1f1f1efc;
   border-top: 1px solid grey;
-  height: 30vh;
+  padding: 50px 0;
   position: relative;
   width: 80%;
-    left: 20%;
-
-}
-.container{
-  /*margin: 20px auto;
-  width: 90%;*/
-
-}
-.section-1-1{
-  /*margin: 20px auto;
-  width: 100%;*/
-
+  left: 20%;
 }
 .sec-1{
   float: left;
-
+  width: 30%;
+}
+.fas {
+    font-weight: 900;
+    color: white;
+}
+i.fas.fa-search:hover {
+    cursor: pointer;
 }
 .sec-2{
   float: right;
-
+width: 38%;
 }
-input{
-
-  border-radius: 5px;
+.input-group{
+  display: flex;
+    width: 60%;
+    float: right;
+}
+input[type="email"] {
+  width: 76%;
+  font-size: 14px;
 }
 button{
-  background-color: grey;
-  color: white;
-  padding: 5px;
+  background-color: #f7cd00;
+    color: rgba(0,0,0,.9);
+    padding: 5px;
+    font-size: 13px;
+    border-style: none;
 }
 button:hover{
-  background-color: black;
+  background-color: #ffb100;
+  cursor: pointer;
 }
-
+input[type="text"] {
+    width: 60%;
+    font-size: 15px;
+    padding: 1px;
+}
 .section-2-2{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -50,7 +56,6 @@ button:hover{
   grid-column-gap: 20px;
   grid-row-gap: 40px;
   clear: both;
-
 }
 .content-1-1{
   margin: 15px auto;
@@ -58,63 +63,67 @@ button:hover{
 }
 .content-1-1 ul{
   list-style-type: none;
-
 }
 .content-1-1 li a{
   text-decoration: none;
-    color: #565353;
-    font-size: 14px;
-    letter-spacing: 1px;
-
+  color: #959090;
+  font-size: 14px;
+  letter-spacing: 1px;
 }
 .content-1-1 a:hover{
-  color: green;
+  color: white;
 }
 .content-1-1 li{
   padding-top: 10px;
 }
 .first-headings{
-  color: hotpink;
+  color: #f7b600;
   font-size: 19px;
 }
 .copy-right p{
   font-size: 14px;
-    color: #959090f0;
+  color: #959090f0;
 }
 .last-icons{
-  text-align: right;
+  width: 40%;
+  float: right;
+}
+.last-icons a {
+    padding: 0;
+    float: right;
 }
 .last-icons .fa-twitter-square:before{
-  /*content: "\f081";*/
   color: grey;
   font-size: 30px;
 }
 .last-icons .fa-twitter-square:hover:before{
-  color: hotpink;
+  color: white;
 }
 .last-icons .fa-github-square:before {
   padding: 10px;
-    /*content: "\f092";*/
   padding: 10px;
   color: grey;
   font-size: 30px;
 }
 .last-icons .fa-github-square:hover:before{
-  color: hotpink;
+  color: white;
 }
 .last-icons .fa-facebook-square:before{
-  /*content: "\f082";*/
   color: grey;
   font-size: 30px;
 }
 .last-icons .fa-facebook-square:hover:before{
-  color: hotpink;
+  color: white;
 }
 .fts{
   margin-bottom: 20px;
   margin-top: 40px;
 }
+.footer .section-3 {
+    margin-top: 60px;
+    width: 100%;
+}
 .copy-right {
-    width: 50%;
-    position: absolute;
+  width: 50%;
+  display: inline-block;
 }
