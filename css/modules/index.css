@@ -92,7 +92,7 @@ body{
 .grid-container{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto;
+  grid-template-rows: auto 350px;
   grid-row-gap: 80px;
   grid-column-gap: 40px;
 }
@@ -114,11 +114,12 @@ img {
 }
 .grd-content h2 {
   font-family: serif;
-  font-size: 20px;
-  font-weight: lighter;
-  letter-spacing: 2px;
-  margin: 0px;
-  padding: 10px;
+    font-size: 20px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 0px;
+    /* padding: 10px; */
+    text-align: center;
 }
 .grd-content h3 {
   letter-spacing: 3px;
@@ -139,28 +140,30 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 87%;
+  height: 88%;
 }
-/*.hover-img2{
+.hover-img2{
   background-image: url("../../images/img-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 87%;
-}*/
+  height: 88%;
+}
 .para{
-  position: relative;
-  padding: 10px;
-  top: 15%;
-  font-size: 30px;
-  color: white;
-  opacity: 0;
-  transition: .8s ease;
+  position: absolute;
+   width: 90%;
+    padding: 10px;
+    top: 10%;
+    font-size: 30px;
+    color: white;
+    opacity: 0;
+    transition: .8s ease;
 }
 .middle{
   width: 100%;
   height: 100%;
   transition: .8s ease;
+  position: relative;
 }
 .middle:hover{
   background-color: rgba(0, 0, 0, 0.5);
