@@ -58,10 +58,12 @@ body{
 }
 .ban-content1 p, .ban-content2 p {
   text-align: justify;
-  padding: 10px 70px;
-  line-height: 25px;
-  font-family: roboto;
-  letter-spacing: 1px;
+    padding: 10px 70px;
+    line-height: 28px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-size: 17px;
+    font-weight: 100;
 }
 .ban-section1{
   display: grid;
@@ -70,7 +72,7 @@ body{
   grid-gap: 50px;
 }
 .ban-content1 h1, .ban-content2 h1{
-  color: #D92982;
+  color: #ff4102;
   font-family: roboto;
 }
 .ban-content1, .ban-content2{
