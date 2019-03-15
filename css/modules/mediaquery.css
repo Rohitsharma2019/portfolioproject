@@ -125,6 +125,17 @@
       position: relative;
       left: 0;
     }
+    input[type="text"] {
+      width: 260px;
+        font-size: 14px;
+        padding: 2.5px;
+        position: relative;
+        bottom: 3px;
+}
+    input[type="email"] {
+    width: 245px;
+    font-size: 14px;
+}
     .section-2-2 {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -166,24 +177,18 @@
     i.fas.fa-check-circle{
       top: 5px;
     }
-    .section-1-1{
-      width: 100%;
-    }
-    .sec-1{
-      width: 43%;
-    }
     .sec-2{
-      width: 48%;
+      width: 50%;
     }
-    .form-inline, .input-group{
-      width: 100%;
-    }
+
     i.fas.fa-search {
       font-size: 25px;
-      margin-left: 3px;
+    margin-left: 3px;
+    position: relative;
+    top: 1px;
     }
     button.btn.btn-sm.btn-outline-white.my-0 {
-      font-size: 20px;
+      /*font-size: 20px;*/
     }
     input.form-control.form-control-sm.mr-3.w-75{
       width: 90%;
@@ -196,10 +201,10 @@
       line-height: 30px;
     }
     .first-headings{
-      font-size: 24px;
+      font-size: 22px;
     }
     .content-1-1 li a{
-      font-size: 18px;
+      font-size: 15px;
     }
 }
 /*// MEDIA QUERY FOR PHONES //*/
@@ -327,6 +332,16 @@
         background-size: cover;
         left: 0;
      }
+     input[type="text"] {
+       width: 93%;
+       font-size: 15px;
+       padding: 5px;
+       position: relative;
+}
+input[type="email"] {
+    width: 100%;
+    font-size: 14px;
+}
      .section-2-2 {
         display: grid;
         grid-template-columns: 1fr;
@@ -368,14 +383,17 @@
         top: 5px;
       }
       .section-1-1{
-        width: 100%;
+        margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-row-gap: 25px;
       }
       .sec-1{
         width: 100%;
       }
       .sec-2{
         width: 100%;
-        margin-top: 20px;
+
       }
       .form-inline, .input-group{
         width: 100%;
@@ -385,7 +403,8 @@
         margin-left: 3px;
       }
       button.btn.btn-sm.btn-outline-white.my-0 {
-        font-size: 20px;
+        font-size: 16px;
+    width: 110px;
       }
       input.form-control.form-control-sm.mr-3.w-75{
         width: 90%;
@@ -403,15 +422,6 @@
       .content-1-1 li a{
         font-size: 18px;
       }
-      .copy-right p {
-        font-size: 14px;
-        color: #959090f0;
-        position: absolute;
-        bottom: 35px;
-      }
-      .copy-right {
-        width: 65%;
-        position: relative;
-        top: 71px;
-      }
+      
+
 }
